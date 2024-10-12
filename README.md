@@ -39,7 +39,7 @@ Organize your data in the following directory structure:
 ```
 Set up path to images and lesion segmentations in the `filePath_radFeat.csv` and `filePath_deepFeat.csv` accordingly. Each row should be a unique PID.
 
-> Note: The deep features are extracted using two different ROI sizes: Using a `nodule-size` bounding box crop, and a `fixed-size` (64x64x32) bounding box crop. The code expect the crops as input. Arrange separate CSV files for each type of crop. We provide examples of both types of crops in the [sample data](https://drive.google.com/drive/folders/1v4RT6ViKGjb8UUwXaZif1X-QtC8J4Xym?usp=drive_link) folder.
+> Note: The deep features are extracted using two different ROI sizes: Using a `nodule-size` bounding box crop, and a `fixed-size` (64x64x32) bounding box crop. The code expect the crops as input. We provide examples of both types of crops in the [sample data](https://drive.google.com/drive/folders/1v4RT6ViKGjb8UUwXaZif1X-QtC8J4Xym?usp=drive_link) folder. Arrange separate CSV files to provide paths for each type of crop. 
 
 Download the weights for the [deep models](https://drive.google.com/drive/folders/1V80vew64ewm-3yzAasexdNdibHQXr5Wq?usp=drive_link), and put the weights inside ***./deep/weights*** folder.
 
